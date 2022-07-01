@@ -1,7 +1,5 @@
 package com.ryo616.miniRend.core.maths;
 
-import com.qualcomm.robotcore.util.RobotLog;
-
 public class Polynomial {
 
     private double[] constants;

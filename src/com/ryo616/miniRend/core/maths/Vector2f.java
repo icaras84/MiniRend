@@ -1,7 +1,5 @@
 package com.ryo616.miniRend.core.maths;
 
-import com.acmerobotics.roadrunner.geometry.Vector2d;
-
 import java.io.IOException;
 
 public class Vector2f {
@@ -98,10 +96,6 @@ public class Vector2f {
 
     public static float dot(Vector2f a, Vector2f b){
         return a.x * b.x + a.y * b.y;
-    }
-
-    public Vector2d getAsVector2d(){
-        return new Vector2d(this.x, this.y);
     }
 
     @Override

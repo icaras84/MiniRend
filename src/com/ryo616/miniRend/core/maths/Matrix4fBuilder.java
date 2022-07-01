@@ -9,10 +9,10 @@ public class Matrix4fBuilder {
      */
     public Matrix4f buildTranslation(Vector3f translation){
         return new Matrix4f(
-                new float[]{1, 0, 0, translation.getX(),
-                            0, 1, 0, translation.getY(),
-                            0, 0, 1, translation.getZ(),
-                            0, 0, 0,                  1});
+                new float[]{1, 0, 0, translation.x,
+                            0, 1, 0, translation.y,
+                            0, 0, 1, translation.z,
+                            0, 0, 0,             1});
     }
 
     /**
@@ -35,7 +35,7 @@ public class Matrix4fBuilder {
      * @param zFactor
      * @return
      */
-    public Matrix4f buildDialation(float xFactor, float yFactor, float zFactor){
+    public Matrix4f buildDilation(float xFactor, float yFactor, float zFactor){
         return new Matrix4f(
                 new float[]{xFactor, 0, 0, 1,
                             0, yFactor, 0, 1,
