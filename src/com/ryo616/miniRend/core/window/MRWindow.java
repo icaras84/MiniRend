@@ -1,6 +1,7 @@
 package com.ryo616.miniRend.core.window;
 
-import com.ryo616.miniRend.core.general.MRLoopable;
+import com.ryo616.miniRend.core.general.util.MRLoopable;
+import com.ryo616.miniRend.core.general.util.MRMap;
 
 import javax.swing.*;
 import java.awt.*;
